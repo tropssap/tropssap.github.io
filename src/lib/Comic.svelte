@@ -1,21 +1,4 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import { createEventDispatcher } from "svelte";
-
-  interface Comic {
-    month: string;
-    num: number;
-    link: string;
-    year: string;
-    news: string;
-    safe_title: string;
-    transcript: string;
-    alt: string;
-    img: string;
-    title: string;
-    day: string;
-  }
-
   export let title: string;
   export let date: string;
   export let imgParams: {
